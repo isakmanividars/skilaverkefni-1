@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um mig</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Vefsíðan um mig! Ísak Máni Viðarsson
+        </h1>
+        <p>Velkomin á vefsíðuna mína.</p>
+ <img src="mynd af mer.jpg"
+                 alt="þetta er ég"
+                 width="100">
+        <nav>
+            <a href="#about">Um mig</a>
+            <a href="#interests">Áhugamál</a>
+            <a href="#schedule">Skipulag</a>
+            <a href="#contact">Hafa samband</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Um mig</h2>
+            <p>
+                Ég heiti ísak Máni og áhugamálið mitt er fótbolti og núna er það líka að læra
+                HTML og CSS. Mér finnst gaman að læra
+                nýja hluti og búa til vefsíður.
+            </p>
+
+            <img src="myndir/ahugamal.webp"
+                 alt="Mynd sem sýnir áhugamál mitt"
+                 width="300">
+        </section>
+
+        <section id="interests">
+            <h2>Áhugamálin mín</h2>
+            <ul>
+                <li>Tölvuleikir</li>
+                <li>Tónlist</li>
+                <li>Íþróttir</li>
+                <li>Forritun</li>
+            </ul>
+        </section>
+
+        <section id="schedule">
+            <h2>Uppáhalds hlutirnir mínir</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hlutur</th>
+                        <th>Af hverju?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>fjölskyldan mín </td>
+                        <td>þetta er líklega mikilvægasta í lífi mínu, á konu og tvö börn og það er ekkert skemmtilegra í lífinu en að eyða tímna með þeim.</td>
+                    </tr>
+                    <tr>
+                        <td>Tölvuleikir</td>
+                        <td>ég elska tölvuleiki því að þá er ég með vinum mínum og hef rosalega gaman að því að vera í tölvunni</td>
+                    </tr>
+                    <tr>
+                        <td>Vinir</td>
+                        <td>Eru mér mjög mikilvægir.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Hafa samband</h2>
+
+            <form action="#" method="post">
+                <label for="name">Ísak Máni Viðarsson:</label>
+                <input type="text" id="name"
+                       name="name" required>
+
+                <label for="email">Tölvupóstur:</label>
+                <input type="email" id="email"
+                       name="email" required>
+
+                <label for="message">Skilaboð:</label>
+                <textarea id="message" name="message"
+                          rows="5" required></textarea>
+
+                <button type="submit">Senda skilaboð</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nafnið Mitt</p>
+        <a href="isakmanividars@gmail.com">
+            Sendu mér tölvupóst
+        </a>
+    </footer>
+
+</body>
+</html>
